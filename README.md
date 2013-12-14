@@ -8,7 +8,8 @@ There is an existing CMS based on cPhalcon but coming up with another robust CMS
 Structure
 ================================================================================
 The folder structure below is the propsed structure of the CMS
-
+```html
+<pre>
 [app]
  [frontend]
 	   [controllers]
@@ -49,6 +50,7 @@ The folder structure below is the propsed structure of the CMS
 	     [theme1]
 	     [theme..n]
 
-	      
+</pre>
+
 The folder structure is borrowed heavily from various leading frameworks Such as yii
 The main reason we need to maintain the above structure is for developer who will be migrating to use our CMS to find it easier to use
