@@ -8,6 +8,7 @@ There is an existing CMS based on cPhalcon but coming up with another robust CMS
 Structure
 ================================================================================
 The folder structure below is the propsed structure of the CMS
+
 [app]
  [frontend]
 	   [controllers]
