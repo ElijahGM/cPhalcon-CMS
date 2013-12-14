@@ -52,3 +52,27 @@ The folder structure below is the propsed structure of the CMS
 	      
 The folder structure is borrowed heavily from various leading frameworks Such as yii
 The main reason we need to maintain the above structure is for developer who will be migrating to use our CMS to find it easier to use
+
+The folder structure is quite self explanatory what i want to emphasize is two folder structure
+```html
+[modules]
+   [module1]
+        Module.php
+	    [controllers]
+	    [models]
+	    [views]
+	        (main layout is coming from here)
+   [module2]
+        Module.php
+	    [controllers]
+	    [models]
+	    [views]
+	        (main layout is coming from here)
+```
+This will host sub-modules of the main application this submoduules can be enabled or disabled
+```html
+[themes]
+	     [theme1]
+	     [theme..n]
+```
+This will host different themes of the application which can be used at both back end and front end 
